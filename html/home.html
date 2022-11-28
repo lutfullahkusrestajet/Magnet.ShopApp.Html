@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RestaJet</title>
+    <!-- CSS only -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <!-- JavaScript Bundle with Popper -->
+  </header>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg r-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo.png" alt="Logo" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- mobile menu -->
+        <div
+          class="offcanvas main-menu offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-overlay">
+              <div class="nav-item d-xl-none d-lg-none">
+                <a class="navbar-brand m-0" href="#">
+                  <img src="../img/logo.png" alt="Logo" class="img-fluid" />
+                </a>
+              </div>
+
+              <ul class="navbar-nav flex-grow-1 r-align-items">
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Food Delivery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Special Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Contact Us</a>
+                </li>                
+              </ul>
+            </div>
+            <div class="button-container">
+              <a class="nav-link r-order-button" href="#">Order Online</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- slider widget start -->
+    <div class="container-fluid p-0">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img class="w-100" src="../img/cover.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+              <h5 class="r-slider-caption">Next-Level Baked Potatoes 1</h5>
+              <p class="r-slider-desc">
+                Kumpi isn't just a baked potato. We have taken a much-loved
+                staple and added some Kumpi magic
+              </p>
+              <a class="btn r-order-button" href="#">Order Online</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img class="w-100" src="../img/cover.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+              <h5 class="r-slider-caption">Next-Level Baked Potatoes 2</h5>
+              <p class="r-slider-desc">
+                Kumpi isn't just a baked potato. We have taken a much-loved
+                staple and added some Kumpi magic
+              </p>
+              <a class="btn r-order-button" href="#">Order Online</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img class="w-100" src="../img/cover.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+              <h5 class="r-slider-caption">Next-Level Baked Potatoes 3</h5>
+              <p class="r-slider-desc">
+                Kumpi isn't just a baked potato. We have taken a much-loved
+                staple and added some Kumpi magic
+              </p>
+              <a class="btn r-order-button" href="#">Order Online</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider widget end -->
+
+    <!-- black order widget start -->
+    <div class="container r-panel r-bg-black mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-text-white">Your order will be</p>
+          <p class="r-panel-text r-text-white">
+            confirmed in <span class="r-bold">REAL-TIME</span>
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 r-text-align-end m-auto">
+          <a class="btn r-order-button r-xs-full" href="#">Order Online</a>
+        </div>
+      </div>
+    </div>
+    <!-- black order widget end -->
+
+    <!-- special offers widget start -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40">
+      <div class="row">
+        <div class="col-4 col-sm-12 col-md-2 col-lg-2">
+          <p class="r-panel-text r-bold r-italic">Special</p>
+          <p class="r-panel-text r-italic">Offers</p>
+        </div>
+        <div class="col-8 col-sm-12 col-md-10 col-lg-10 r-card-container">
+          <div class="col-12 card r-card r-border-none">
+            <img src="../img/offer1.png" class="card-img-top" alt="offer1" />
+            <div class="card-body">
+              <h5 class="r-offer-title">Margherita Pizza</h5>
+              <p class="r-offer-desc">
+                Our own traditionally-baked pizza base with mozzarella.
+              </p>
+            </div>
+            <a class="btn r-order-button r-full-width r-btn-small" href="#"
+              >View Detail</a
+            >
+          </div>
+
+          <div class="col-12 card r-card r-border-none">
+            <img src="../img/offer2.png" class="card-img-top" alt="offer1" />
+            <div class="card-body">
+              <h5 class="r-offer-title">Margherita Pizza</h5>
+              <p class="r-offer-desc">
+                Our own traditionally-baked pizza base with mozzarella.
+              </p>
+            </div>
+            <a class="btn r-order-button r-full-width r-btn-small" href="#"
+              >View Detail</a
+            >
+          </div>
+
+          <div class="col-12 card r-card r-border-none">
+            <img src="../img/offer3.png" class="card-img-top" alt="offer1" />
+            <div class="card-body">
+              <h5 class="r-offer-title">Margherita Pizza</h5>
+              <p class="r-offer-desc">
+                Our own traditionally-baked pizza base with mozzarella.
+              </p>
+            </div>
+            <a class="btn r-order-button r-full-width r-btn-small" href="#"
+              >View Detail</a
+            >
+          </div>
+
+          <div class="col-12 card r-card r-border-none">
+            <img src="../img/offer3.png" class="card-img-top" alt="offer1" />
+            <div class="card-body">
+              <h5 class="r-offer-title">Margherita Pizza</h5>
+              <p class="r-offer-desc">
+                Our own traditionally-baked pizza base with mozzarella.
+              </p>
+            </div>
+            <a class="btn r-order-button r-full-width r-btn-small" href="#"
+              >View Detail</a
+            >
+          </div>
+
+          <div class="col-12 card r-card r-border-none">
+            <img src="../img/offer3.png" class="card-img-top" alt="offer1" />
+            <div class="card-body">
+              <h5 class="r-offer-title">Margherita Pizza</h5>
+              <p class="r-offer-desc">
+                Our own traditionally-baked pizza base with mozzarella.
+              </p>
+            </div>
+            <a class="btn r-order-button r-full-width r-btn-small" href="#"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- special offers widget end -->
+
+    <!-- twitter widget start -->
+    <div class="container r-panel r-bg-blue mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-text-white">Follow us on</p>
+          <p class="r-panel-text r-text-white">
+            our twitter acount <span class="r-bold">@eatkumpi</span>
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 r-text-align-end m-auto">
+          <a class="btn r-button-dark r-xs-full" href="#">Follow on Twitter</a>
+        </div>
+      </div>
+    </div>
+    <!-- twitter widget end -->
+
+    <!-- gallery widget start -->
+    <div class="container r-gallery-panel">
+      <div class="row text-center text-lg-start">
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 r-gallery-img-container">
+          <a href="#" class="d-block mb-4 h-100 r-gallery-img-link">
+            <img
+              class="img-fluid"
+              src="https://dummyimage.com/400x300"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- gallery widget end -->
+
+    <!-- food widget start -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-2">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-italic r-bold">About Elias Döner</p>
+          <p class="r-panel-text r-italic r-bold">& Pizza - Mühltal</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-food-panel-text">
+            At Elias Döner & Pizza - Mühltal we offer meals of excellent quality
+            and invite you to try our delicious food.
+            <br />
+            <br />
+            The key to our success is simple: providing quality consistent food
+            that taste great every single time. We pride ourselves on serving
+            our customers delicious genuine dishes like: Burger, Pizza, Salads
+            <br />
+            <br />
+            Eat delicious food. Grab a drink. But most of all, relax! We thank
+            you from the bottom of our hearts for your continued support.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- food widget end -->
+
+    <!-- opening hours widget start -->
+    <div class="container r-panel r-bg-black mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <p class="r-panel-text r-bold r-text-white r-italic">Opening Hours</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+          <p class="r-opening-hours-day">Monday - Friday</p>
+          <p class="r-opening-hours-day">Sunday</p>
+        </div>
+        <div class="col-6 col-sm-4 col-md-4 col-lg-4 r-text-align-end">
+          <p class="r-opening-hours-hour">11:00 - 21:00</p>
+          <p class="r-opening-hours-hour">12:00 - 21:00</p>
+        </div>
+      </div>
+    </div>
+    <!-- opening hours widget end -->
+
+    <!-- visit new store widget start -->
+    <div class="container r-panel mt-5 mb-5 p-0">
+      <div class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100 r-border-8"
+              src="../img/cover.png"
+              alt="Third slide"
+            />
+            <div class="carousel-caption r-text-align-left r-new-store-caption">
+              <h5 class="r-new-store-title">Did you visit our new store?</h5>
+              <p class="r-new-store-desc">
+                Our new store address, 75 Old Christchurch Rd, Bournemouth BH1
+                1EW, United Kingdom
+              </p>
+              <a class="btn r-order-button r-btn-small" href="#">Show on Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- visit new store widget end -->
+
+    <!-- register widget start -->
+    <div class="container r-panel r-bg-yellow mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text">Sign up now place</p>
+          <p class="r-panel-text">
+            your first order for <span class="r-bold">FREE</span>
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 r-text-align-end m-auto">
+          <a class="btn r-button-dark r-xs-full" href="#">Register Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- register widget end -->
+
+    <!-- app widget start -->
+    <div class="container r-panel mt-5 mb-5 p-0">
+      <div class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="w-100 r-border-8"
+              src="../img/appCover.png"
+              alt="Third slide"
+            />
+            <div class="carousel-caption r-text-align-left r-app-caption">
+              <h5
+                class="r-panel-text r-bold r-italic r-text-white r-line-height r-mb-1 r-app-title"
+              >
+                Save $$$ <br />
+                With offers on <br />demand
+              </h5>
+              <p class="r-app-desc">
+                Online ordering NOW enabled for pick-up or delivery. Just tell
+                us what you want and we'll prepare it as fast as we can.
+              </p>
+              <a class="" href="#"><img src="../img/appStore.png" /></a>
+              <a class="" href="#"><img src="../img/googlePlay.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- app widget end -->
+
+    <!-- reservation widget start -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-italic r-bold">Make A</p>
+          <p class="r-panel-text r-italic r-bold">Reservation</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="row mb-2">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="dateInput" class="form-label r-label">Date</label>
+              <input
+                type="date"
+                class="form-control r-input"
+                id="dateInput"
+                placeholder="Date"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="timeInput" class="form-label r-label">Time</label>
+              <input
+                type="time"
+                class="form-control r-input"
+                id="timeInput"
+                placeholder="Time"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="peopleInput" class="form-label r-label"
+                >Number of people</label
+              >
+              <input
+                type="number"
+                class="form-control r-input"
+                id="peopleInput"
+              />
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="nameInput" class="form-label r-label">Name</label>
+              <input
+                type="text"
+                class="form-control r-input"
+                id="nameInput"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="emailInput" class="form-label r-label"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                class="form-control r-input"
+                id="emailInput"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="phoneInput" class="form-label r-label">Phone</label>
+              <input
+                type="tel"
+                class="form-control r-input"
+                id="phoneInput"
+                placeholder="+44"
+              />
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-4">
+              <label for="nameInput" class="form-label r-label">Branch</label>
+              <select
+                class="form-select r-input"
+                aria-label="Default select example"
+              >
+                <option selected>Select Branch</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-8">
+              <label for="noteInput" class="form-label r-label">Note</label>
+              <input type="text" class="form-control r-input" id="noteInput" />
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col r-text-align-end">
+              <a class="btn r-order-button r-btn-small r-xs-full" href="#"
+                >Make Reservation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- reservation widget end -->
+
+    <!-- new branch widget start -->
+    <div class="container r-panel mt-5 mb-5 p-0">
+      <div class="card mb-3 r-border-none">
+        <div class="row g-0">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <img
+              src="../img/slide2.jpg"
+              class="img-fluid r-border-left r-new-branch-img"
+              alt="..."
+            />
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-6 r-bg-yellow r-border-right r-p-20 r-new-branch-container"
+          >
+            <div class="card-body">
+              <h5 class="r-new-branch-title">Our new branch opened</h5>
+              <p class="r-new-branch-desc">
+                Online ordering NOW enabled for pick-up or delivery. Just tell
+                us what you want and we'll prepare it as fast as we can.
+                <br />
+                <br />
+                All orders are manually confirmed by us directly. Find out in
+                real-time when your food is ready. Watch on-screen when your
+                food is ready for pickup or when it gets delivered.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- new branch widget end -->
+
+    <!-- delivery area widget start -->
+    <div class="container r-panel r-bg-white mt-5 r-p-40 r-border-8">
+      <div class="row">
+        <p class="r-panel-text r-italic r-bold mb-3">Food Delivery In London</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+          <p class="r-delivery-desc">
+            Looking for food delivery in London? Not everybody knows or has the
+            time to prepare tasty food.<br /><br />
+            When you want to get served like a king then food delivery from
+            Elias Döner & Pizza - Mühltal will be your best choice.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+          <p class="r-delivery-fee">Delivery fee</p>
+          <ul class="r-delivery-fee-list">
+            <li class="r-color-yellow">
+              <span class="r-delivery-text-bold">Zone 1,</span> Min - €15.00,
+              Fee - €0.00
+            </li>
+            <li class="r-color-aqua">
+              <span class="r-delivery-text-bold">Zone 2,</span> Min - €20.00,
+              Fee - €0.00
+            </li>
+            <li class="r-color-blue">
+              <span class="r-delivery-text-bold">Zone 3,</span> Min - €25.00,
+              Fee - €0.00
+            </li>
+            <li class="r-color-brown">
+              <span class="r-delivery-text-bold">Zone 4,</span> Min - €30.00,
+              Fee - €0.00
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container r-panel p-0 mb-5">
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14049.269518764448!2d-0.0994436016114028!3d51.50251136724578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a26b7f145%3A0xd1c47a2b70881ec2!2sSouthwark%2C%20Londra%20SE1%203SS%2C%20Birle%C5%9Fik%20Krall%C4%B1k!5e0!3m2!1str!2str!4v1669279747063!5m2!1str!2str"
+          width="950"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- delivery area widget end -->
+
+    <!-- footer widget start -->
+    <footer class="py-5 r-bg-black r-footer">
+      <div class="container r-footer-container">
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <img src="../img/footerLogo.png" alt="Logo" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <h5 class="r-footer-title">Site Map</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Menu</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link"
+                  >Special Offers</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Order ahead</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <h5 class="r-footer-title">Follow us on</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Twitter</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <a class="btn r-order-button r-xs-full" href="#">Order Online</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3"></div>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+            <select
+              class="form-select r-footer-input r-border-none"
+              aria-label="Default select example"
+            >
+              <option selected>English</option>
+              <option value="1">German</option>
+              <option value="2">French</option>
+              <option value="3">Spanish</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-5">
+            <p class="r-poweredby mb-1">powered by</p>
+            <img src="../img/restaLogo.png" class="" />
+          </div>
+          <div
+            class="d-none d-sm-block d-md-block d-lg-block col-sm-3 col-md-3 col-lg-3"
+          ></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-5">
+            <img src="../img/skrill.png" class="" />
+            <img src="../img/master.png" class="" />
+            <img src="../img/visa.png" class="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer widget end -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
