@@ -571,6 +571,11 @@ li.r-color-brown::marker {
   align-content: center;
   padding: 0;
 }
+.offcanvas.main-menu.offcanvas-end
+{
+  flex-grow: 0;
+}
+
 .main-menu.offcanvas .offcanvas-body .button-container {
   padding: 1rem;
   background-color: white;
@@ -584,11 +589,16 @@ li.r-color-brown::marker {
 .main-menu.offcanvas .offcanvas-body .navbar-nav{
   overflow: auto;
 }
+
+.r-overflow-hidden
+{
+  overflow:hidden;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .r-panel,
-  .r-gallery-panel {
-    margin: 0 5px;
+  .r-main{
+    padding: 0 5px;
   }
 }
 
