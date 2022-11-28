@@ -15,6 +15,7 @@
   --primaryFont: "Poppins";
   --secondaryFont: "PT Serif";
   --tertiaryFont: "Gilroy";
+  --bg-app-widget: #181818;
 }
 
 /* poppins-regular - latin */
@@ -356,6 +357,10 @@
   background: var(--yellow);
 }
 
+.r-bg-dark{
+  background: var(--bg-app-widget);
+}
+
 .r-border-2 {
   border-radius: 2px;
 }
@@ -595,6 +600,34 @@ li.r-color-brown::marker {
   overflow:hidden;
 }
 
+.r-app-container {
+  position: relative;
+  height: 100%;
+  max-width: 300px;
+  margin-right: auto!important; 
+  margin-left: auto!important;
+}
+
+.zindex-2 {
+  z-index: 2 !important;
+}
+
+.r-app-img {
+  display: flex;  
+    top: -30px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+}
+
+.r-app-margin{
+  margin-bottom: -30px !important;
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .r-main{
@@ -672,6 +705,11 @@ li.r-color-brown::marker {
 
   .r-new-branch-container {
     border-radius: 0 0 8px 8px;
+  }
+
+  .r-app-container{
+    margin-right: 0 !important; 
+    margin-left: 0 !important;
   }
 }
 
