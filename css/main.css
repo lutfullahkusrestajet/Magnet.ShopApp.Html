@@ -711,6 +711,15 @@ li.r-color-brown::marker {
     margin-right: 0 !important; 
     margin-left: 0 !important;
   }
+  .r-img-mobile{
+    height: 115px;
+    max-width: 100%;
+  }
+  .r-nav-link
+  {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
