@@ -16,7 +16,8 @@
   --secondaryFont: "PT Serif";
   --tertiaryFont: "Gilroy";
   --bg-app-widget: #181818;
-  --menu-title-color: #182836
+  --menu-title-color: #182836;
+  --color-black: #000000;
 }
 
 /* poppins-regular - latin */
@@ -406,6 +407,10 @@
   color: var(--black);
 }
 
+.r-text-area{
+  resize: none;
+}
+
 .r-border-left {
   border-radius: 8px 0 0 8px;
 }
@@ -626,7 +631,7 @@ li.r-color-brown::marker {
   padding: 0.75rem 0;
 }
 
-.r-menu-title, .r-menu-from, .r-menu-price, .r-menu-detail{
+.r-menu-title, .r-menu-from, .r-menu-price, .r-menu-detail, .r-contact-desc{
   font-family: var(--primaryFont);
   font-style: normal;
   font-weight: 400;
@@ -647,6 +652,15 @@ li.r-color-brown::marker {
 
 .r-italic {
   font-style: italic;
+}
+
+.r-contact-text{
+font-family: var(--primaryFont);
+font-style: normal;
+font-size: 14.3226px;
+line-height: 21px;
+color: var(--color-black);
+margin: 0.3rem 0;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
