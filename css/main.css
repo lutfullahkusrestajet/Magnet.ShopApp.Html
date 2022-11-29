@@ -528,13 +528,22 @@ li.r-color-brown::marker {
   line-height: 18px;
   letter-spacing: 0.023em;
   color: var(--bg-footer-input);
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 2px;
-  background-image: url("../img/Vector.png");
-  background-repeat: no-repeat;
-  background-size: 1.3em auto;
-  background-position: 0.8em center;
   padding: 1em 1.5em 1em 2.5em;
+  background-size: 1.3em auto;
+  background-image: url("../img/Vector.png"), url("../img/chevron-down.png");
+  background-position: 0.8em center, 97% center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-select.r-input
+{
+  background-size: 1em auto;
+  background-image: url("../img/chevron-down.png");
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .r-poweredby {
