@@ -16,6 +16,7 @@
   --secondaryFont: "PT Serif";
   --tertiaryFont: "Gilroy";
   --bg-app-widget: #181818;
+  --menu-title-color: #182836
 }
 
 /* poppins-regular - latin */
@@ -242,14 +243,6 @@
   color: var(--black);
   font-weight: 500;
   margin: 0;
-}
-
-.r-bold {
-  font-weight: 600;
-}
-
-.r-italic {
-  font-style: italic;
 }
 
 .r-offer-title {
@@ -614,18 +607,46 @@ li.r-color-brown::marker {
 
 .r-app-img {
   display: flex;  
-    top: -30px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    opacity: 1;
-    visibility: visible;
+  top: -30px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 1;
+  visibility: visible;
 }
 
 .r-app-margin{
   margin-bottom: -30px !important;
+}
+
+.r-list-item{
+  background-color: var(--bg-white);
+  padding: 0.75rem 0;
+}
+
+.r-menu-title, .r-menu-from, .r-menu-price, .r-menu-detail{
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;  
+  letter-spacing: 0.023em;  
+  color: var(--menu-title-color);
+}
+
+.r-menu-detail
+{
+  line-height: 18px;
+}
+
+.r-bold {
+  font-weight: 600;
+}
+
+.r-italic {
+  font-style: italic;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */

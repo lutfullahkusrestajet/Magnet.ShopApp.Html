@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RestaJet</title>
+    <!-- CSS only -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <!-- JavaScript Bundle with Popper -->
+  </header>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg r-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo.png" alt="Logo" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- mobile menu -->
+        <div
+          class="offcanvas main-menu offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-overlay">
+              <div class="nav-item d-xl-none d-lg-none mb-5">
+                <a class="navbar-brand m-0" href="#">
+                  <img src="../img/logo.png" alt="Logo" class="img-fluid r-img-mobile" />
+                </a>
+              </div>
+
+              <ul class="navbar-nav flex-grow-1 r-align-items">
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Food Delivery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Special Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link r-nav-link" href="#">Contact Us</a>
+                </li>                
+              </ul>
+            </div>
+            <div class="button-container">
+              <a class="nav-link r-order-button" href="#">Order Online</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- slider widget start -->
+    <div class="container-fluid p-0">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img class="w-100" src="../img/menuSlider.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+              <h5 class="r-slider-caption">Menu of Next-Level Baked Potatoes</h5>
+              <p class="r-slider-desc">
+                Best Baked Potatoes in Bournemouth
+              </p>             
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img class="w-100" src="../img/cover.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+                <h5 class="r-slider-caption">Menu of Next-Level Baked Potatoes</h5>
+                <p class="r-slider-desc">
+                  Best Baked Potatoes in Bournemouth
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img class="w-100" src="../img/cover.png" alt="Third slide" />
+            <div class="carousel-caption r-text-align-left">
+              <h5 class="r-slider-caption">Next-Level Baked Potatoes 3</h5>
+              <h5 class="r-slider-caption">Menu of Next-Level Baked Potatoes</h5>
+              <p class="r-slider-desc">
+                Best Baked Potatoes in Bournemouth
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider widget end -->
+    <div class="r-main">
+    <!-- black order widget start -->
+    <div class="container r-panel r-bg-black mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-text-white">Your order will be</p>
+          <p class="r-panel-text r-text-white">
+            confirmed in <span class="r-bold">REAL-TIME</span>
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 r-text-align-end m-auto">
+          <a class="btn r-order-button r-xs-full" href="#">Order Online</a>
+        </div>
+      </div>
+    </div>
+    <!-- black order widget end -->
+
+    <!-- menu widget start döner -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+        <div class="row mb-4">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="r-panel-text r-italic r-bold">DÖNER / DREHSPIESS</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>                 
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>              
+         </div>
+        </div>
+      </div>
+      <!-- menu widget end döner --> 
+
+      <!-- menu widget start lahmacun -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+        <div class="row mb-4">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="r-panel-text r-italic r-bold">LAHMACUN</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>                 
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>              
+         </div>
+        </div>
+      </div>
+      <!-- menu widget end lahmacun -->
+
+      <!-- menu widget start pizza -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+        <div class="row mb-4">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="r-panel-text r-italic r-bold">PIZZA</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>                 
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>              
+         </div>
+        </div>
+      </div>
+      <!-- menu widget end pizza -->
+
+      <!-- menu widget start drinks -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+        <div class="row mb-4">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="r-panel-text r-italic r-bold">DRINKS</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>                 
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item r-list-item">
+                        <div>
+                            <span class="r-menu-title r-bold">01- Döner</span>
+                            <span class="r-menu-from float-end">From <span class="r-menu-price r-bold">6,50</span></span>
+                        </div>
+                        <div>
+                            <span class="r-menu-detail">mit Salat und Soße</span>
+                        </div>
+                    </li>
+                  </ul>              
+         </div>
+        </div>
+      </div>
+      <!-- menu widget end drinks -->
+
+    <!-- visit new store widget start -->
+    <div class="container r-panel mt-5 mb-5 p-0">
+      <div class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100 r-border-8"
+              src="../img/cover.png"
+              alt="Third slide"
+            />
+            <div class="carousel-caption r-text-align-left r-new-store-caption">
+              <h5 class="r-new-store-title">Did you visit our new store?</h5>
+              <p class="r-new-store-desc">
+                Our new store address, 75 Old Christchurch Rd, Bournemouth BH1
+                1EW, United Kingdom
+              </p>
+              <a class="btn r-order-button r-btn-small" href="#">Show on Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- visit new store widget end -->     
+
+    <!-- reservation widget start -->
+    <div class="container r-panel r-bg-white mt-5 mb-5 r-p-40 r-border-8">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="r-panel-text r-italic r-bold">Make A</p>
+          <p class="r-panel-text r-italic r-bold">Reservation</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="row mb-2">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="dateInput" class="form-label r-label">Date</label>
+              <input
+                type="date"
+                class="form-control r-input"
+                id="dateInput"
+                placeholder="Date"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="timeInput" class="form-label r-label">Time</label>
+              <input
+                type="time"
+                class="form-control r-input"
+                id="timeInput"
+                placeholder="Time"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="peopleInput" class="form-label r-label"
+                >Number of people</label
+              >
+              <input
+                type="number"
+                class="form-control r-input"
+                id="peopleInput"
+              />
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="nameInput" class="form-label r-label">Name</label>
+              <input
+                type="text"
+                class="form-control r-input"
+                id="nameInput"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="emailInput" class="form-label r-label"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                class="form-control r-input"
+                id="emailInput"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <label for="phoneInput" class="form-label r-label">Phone</label>
+              <input
+                type="tel"
+                class="form-control r-input"
+                id="phoneInput"
+                placeholder="+44"
+              />
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-4">
+              <label for="nameInput" class="form-label r-label">Branch</label>
+              <select
+                class="form-select r-input"
+                aria-label="Default select example"
+              >
+                <option selected>Select Branch</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-8">
+              <label for="noteInput" class="form-label r-label">Note</label>
+              <input type="text" class="form-control r-input" id="noteInput" />
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col r-text-align-end">
+              <a class="btn r-order-button r-btn-small r-xs-full" href="#"
+                >Make Reservation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- reservation widget end -->  
+     
+  </div>
+    <!-- footer widget start -->
+    <footer class="py-5 r-bg-black r-footer">
+      <div class="container r-footer-container">
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <img src="../img/footerLogo.png" alt="Logo" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <h5 class="r-footer-title">Site Map</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Menu</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link"
+                  >Special Offers</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Order ahead</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <h5 class="r-footer-title">Follow us on</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Twitter</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 r-footer-link">Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3 mb-3">
+            <a class="btn r-order-button r-xs-full" href="#">Order Online</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3"></div>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+            <select
+              class="form-select r-footer-input r-border-none"
+              aria-label="Default select example"
+            >
+              <option selected>English</option>
+              <option value="1">German</option>
+              <option value="2">French</option>
+              <option value="3">Spanish</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-5">
+            <p class="r-poweredby mb-1">powered by</p>
+            <img src="../img/restaLogo.png" class="" />
+          </div>
+          <div
+            class="d-none d-sm-block d-md-block d-lg-block col-sm-3 col-md-3 col-lg-3"
+          ></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-5">
+            <img src="../img/skrill.png" class="" />
+            <img src="../img/master.png" class="" />
+            <img src="../img/visa.png" class="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer widget end -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
